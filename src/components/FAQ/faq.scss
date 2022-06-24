@@ -1,0 +1,41 @@
+@import "../../partials/variables";
+@import "../../partials/features";
+
+#faq {
+  font-family: $josefin;
+  padding: 80px;
+  .header {
+    text-align: center;
+  }
+  .faqs {
+    padding-top: 30px;
+    .faqHolder {
+      .faq {
+        &:not(:first-child) {
+          margin-top: 25px;
+        }
+        .question {
+          font-weight: 700;
+          user-select: none;
+          cursor: pointer;
+          .icon{
+            
+            .minus{
+                display: none;
+            }
+
+          }
+          h6 {
+            display: inline-block;
+            margin-left: 20px;
+          }
+        }
+        .answer {
+          color: #515762;
+          margin-top: 15px;
+          display: none;
+        }
+      }
+    }
+  }
+}

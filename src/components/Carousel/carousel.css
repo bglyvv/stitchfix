@@ -1,0 +1,150 @@
+#carousel .container {
+  max-width: 1600px;
+}
+
+#carousel .container .header {
+  margin-bottom: 0.2rem;
+  margin-top: 4rem;
+  text-align: center;
+  color: #25282d;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#carousel .container .header h1 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 0.7rem;
+}
+
+#carousel .container .header p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 1rem;
+}
+
+#carousel .container .row {
+  margin-bottom: 3.6rem;
+  margin-top: 2.6rem;
+}
+
+#carousel .container .row .gallery {
+  position: relative;
+}
+
+#carousel .container .row .gallery ul {
+  scroll-behavior: smooth;
+  margin-left: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  scroll-padding: 0;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
+#carousel .container .row .gallery ul li {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 3px;
+  margin-right: 0.5rem;
+  scroll-snap-align: start;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#carousel .container .row .gallery ul li p {
+  color: #25282d;
+  margin-top: 1rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+#carousel .container .row .gallery ul li .text {
+  background: #fff;
+  bottom: 3.9rem;
+  left: 0;
+  margin: auto;
+  min-width: 16.813rem;
+  padding: 0.313rem 0.875rem;
+  right: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  font-size: 1.125rem;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+
+#carousel .container .row .gallery ul li .pricing {
+  background: #fff;
+  bottom: 1.219rem;
+  left: 0;
+  margin: auto;
+  min-width: 11.313rem;
+  padding: 0.438rem;
+  right: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  font-size: 0.875rem;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+
+#carousel .container .row .gallery ul li .video {
+  height: 502px;
+  width: 335px;
+  background-color: #f2f3f4;
+  overflow: hidden;
+  position: relative;
+}
+
+#carousel .container .row .gallery ul li .video video {
+  display: block;
+  max-width: 100%;
+}
+
+#carousel .container .row .gallery ul li .image {
+  height: 502px;
+  width: 335px;
+  background-color: #f2f3f4;
+  overflow: hidden;
+  position: relative;
+}
+
+#carousel .container .row .gallery ul li .image img {
+  max-width: 100%;
+}
+
+#carousel .container .row .gallery .prev {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  font-size: 26px;
+  cursor: pointer;
+  color: #515762;
+}
+
+#carousel .container .row .gallery .next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  font-size: 26px;
+  cursor: pointer;
+  background: rgba(37, 40, 45, 0.67);
+  border-color: #d9d9d9;
+  color: #fff;
+  padding: 0 0.3rem;
+}
+/*# sourceMappingURL=carousel.css.map */

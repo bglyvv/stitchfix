@@ -1,0 +1,10 @@
+@media(max-width: 899px){
+    footer{
+        .web{
+            display: none!important;
+        }
+        .mobile{
+            display: inherit!important;
+        }
+    }
+}

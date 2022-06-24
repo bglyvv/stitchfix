@@ -1,0 +1,37 @@
+@import "../../partials/variables";
+
+#howItWorks {
+    background: #f8f2ed;
+    padding: 1rem 1rem 3rem;
+    .container {
+        max-width: 1200px;
+        padding-top: 2rem;
+        h1 {
+            font-family: $josefin;
+            margin-bottom: 2rem;
+            font-size: 28px;
+            text-align: center;
+        }
+        .row {
+            .box {
+                text-align: center;
+                padding: 1rem 0;
+                .image{
+                    max-width: 250px;
+                    margin: 0 auto;
+                }
+                h3 {
+                    margin-top: 1rem;
+                    margin-bottom: 0.7rem;
+                    color: #25282d;
+                    font-size: 24px;
+                }
+                p {
+                    line-height: 24px;
+                    padding: 0 2.7rem;
+                    color: #25282d;
+                }
+            }
+        }
+    }
+}

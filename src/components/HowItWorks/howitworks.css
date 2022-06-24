@@ -1,0 +1,40 @@
+#howItWorks {
+  background: #f8f2ed;
+  padding: 1rem 1rem 3rem;
+}
+
+#howItWorks .container {
+  max-width: 1200px;
+  padding-top: 2rem;
+}
+
+#howItWorks .container h1 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 2rem;
+  font-size: 28px;
+  text-align: center;
+}
+
+#howItWorks .container .row .box {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#howItWorks .container .row .box .image {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+#howItWorks .container .row .box h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  color: #25282d;
+  font-size: 24px;
+}
+
+#howItWorks .container .row .box p {
+  line-height: 24px;
+  padding: 0 2.7rem;
+  color: #25282d;
+}
+/*# sourceMappingURL=howitworks.css.map */

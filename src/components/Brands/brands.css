@@ -1,0 +1,60 @@
+#brands .header {
+  margin-bottom: 1.6rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#brands .header h2 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 0.7rem;
+}
+
+#brands .header p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 1rem;
+}
+
+#brands .header p a {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#316caf), to(#316caf));
+  background-image: linear-gradient(#316caf, #316caf);
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  color: #316caf;
+  -webkit-transition: background-size 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: background-size 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#brands .header p a:hover {
+  background-position-x: 100%;
+  background-size: 0 1px;
+}
+
+#brands .brands-wrapper {
+  margin-top: 1rem;
+}
+
+#brands .brands-wrapper .brands-container {
+  max-width: 64rem;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 4.3125rem;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+
+#brands .brands-wrapper .brands-container .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#brands .brands-wrapper .brands-container .image img {
+  display: block;
+  max-width: 7.5rem;
+}
+/*# sourceMappingURL=brands.css.map */

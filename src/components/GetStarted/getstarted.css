@@ -1,0 +1,48 @@
+#getStarted {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1.375rem solid #81e6d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4rem 2rem;
+}
+
+#getStarted .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#getStarted .content h2 {
+  color: #25282d;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#getStarted .content a {
+  background-color: #81e6d3;
+  color: #25282d;
+  border: 2px solid transparent;
+  display: inline-block;
+  min-width: 12rem;
+  padding: calc(0.875rem - 2px) 1.5rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=getstarted.css.map */

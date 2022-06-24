@@ -1,0 +1,212 @@
+@import "../../partials/variables";
+@import "../../partials/features";
+@import "./responsive";
+
+footer {
+  font-family: $josefin;
+  .langHolder {
+    margin-top: 20px;
+    .flag {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .selectWrapper {
+      position: relative;
+      display: inline-block;
+      select {
+        margin-left: 10px;
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        option {
+          border: none;
+          background-color: #e8e8ec;
+          color: #25282d;
+          &:hover {
+            background-color: rgb(39, 16, 16);
+          }
+        }
+
+        // &:hover{
+        // }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        color: black;
+        background-color: black;
+        top: 100%;
+        left: 10px;
+      }
+
+      &:hover {
+        &:after {
+          width: 80%;
+        }
+      }
+    }
+  }
+  .container {
+    max-width: 1368px;
+  }
+  .upperFooter {
+    .logoHolder {
+      svg {
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    .platformHolder {
+      margin-top: 40px;
+      width: 135px !important;
+      img {
+        width: 100%;
+        position: relative;
+      }
+    }
+
+    .footerNavigation {
+      h6 {
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+      ul {
+        li {
+          margin-top: 10px;
+          a {
+            color: #515762;
+            text-decoration: none;
+            position: relative;
+
+            @include customDecoration();
+          }
+        }
+      }
+    }
+
+    .socialMedia {
+      .holder {
+        ul {
+          display: flex;
+          li {
+            &:not(:last-child) {
+              margin-right: 30px;
+            }
+            a {
+              color: #25282d;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lowerFooter {
+    color: #515762;
+    font-size: 14px;
+    p{
+      font-size: 12px;
+    }
+    .navigation {
+      float: right;
+      a {
+        color: #515762;
+        position: relative;
+        @include customDecoration();
+        margin: 0px 5px;
+        &:last-child {
+          margin-right: 0px !important;
+        }
+      }
+    }
+  }
+
+  .web {
+    .socialMedia {
+      .holder {
+        overflow: auto;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+    .langHolder {
+      margin-bottom: 30px;
+    }
+    .expandFooter {
+      border: 0;
+      color: #25282d;
+      cursor: pointer;
+      line-height: normal;
+      outline: none;
+      padding: 0;
+      text-align: left;
+      text-align: center;
+      z-index: 1;
+      position: relative;
+
+      .textHolder {
+        display: inline-block;
+        padding: 0px 10px;
+        p {
+          display: inline-block;
+          margin-right: 10px;
+        }
+
+        background-color: white;
+        position: relative;
+        z-index: 1;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        width: calc(44%);
+        height: 1px;
+        top: 45%;
+        background-color: black;
+        z-index: 0;
+      }
+      &::before {
+        left: 0;
+      }
+      &::after {
+        right: 0%;
+        transform-origin: left;
+      }
+    }
+
+    .upperFooter {
+      .footerNavigation {
+        padding: 40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .platformHolder {
+        margin-top: 20px !important;
+      }
+    }
+
+    .lowerFooter {
+      margin-top: 15px;
+      text-align: center;
+      .navigation {
+        margin: 15px 0px;
+        float: none;
+      }
+    }
+  }
+}

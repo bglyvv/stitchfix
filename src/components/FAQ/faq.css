@@ -1,0 +1,41 @@
+#faq {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 80px;
+}
+
+#faq .header {
+  text-align: center;
+}
+
+#faq .faqs {
+  padding-top: 30px;
+}
+
+#faq .faqs .faqHolder .faq:not(:first-child) {
+  margin-top: 25px;
+}
+
+#faq .faqs .faqHolder .faq .question {
+  font-weight: 700;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+#faq .faqs .faqHolder .faq .question .icon .minus {
+  display: none;
+}
+
+#faq .faqs .faqHolder .faq .question h6 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#faq .faqs .faqHolder .faq .answer {
+  color: #515762;
+  margin-top: 15px;
+  display: none;
+}
+/*# sourceMappingURL=faq.css.map */

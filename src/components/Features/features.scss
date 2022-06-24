@@ -1,0 +1,44 @@
+@import '../../partials/variables';
+
+
+#features {
+    margin-top: 5rem;
+    background: #d8f7f1;
+    padding-bottom: 5rem;
+    .container {
+        max-width: 1700px;
+        h2 {
+            padding: 2.5rem 1rem;
+            text-align: center;
+            font-family: $josefin;
+            font-size: 28px;
+        }
+        .row{
+            background: #fff;
+            padding: 2.5rem 0;
+            margin: 0 0.5rem;
+            .box{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                font-family: $josefin;
+                color: #25282d;
+                margin: 1.5rem 5.3rem;
+                .image{
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                h3{
+                    padding-bottom: 0.25rem;
+                    font-size: 20px;
+                    margin-top: 1rem;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

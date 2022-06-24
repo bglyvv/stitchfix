@@ -1,0 +1,49 @@
+@import "../../partials/variables";
+
+#brands {
+    .header {
+        margin-bottom: 1.6rem;
+        text-align: center;
+        font-family: $josefin;
+        h2 {
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 0.7rem;
+        }
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 1rem;
+            a {
+                background-image: linear-gradient(rgb(49, 108, 175), rgb(49, 108, 175));
+                background-position-y: 100%;
+                background-repeat: no-repeat;
+                background-size: 100% 1px;
+                color: #316caf;
+                transition: background-size 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+                &:hover {
+                    background-position-x: 100%;
+                    background-size: 0 1px;
+                }
+            }
+        }
+    }
+    .brands-wrapper {
+        margin-top: 1rem;
+        .brands-container {
+            max-width: 64rem;
+            display: grid;
+            grid-auto-rows: 4.3125rem;
+            grid-template-columns: repeat(8, 1fr);
+            margin: 0 auto;
+            overflow-y: hidden;
+            .image {
+                display: flex;
+                img{
+                    display: block;
+                    max-width: 7.5rem;
+                }
+            }
+        }
+    }
+}
